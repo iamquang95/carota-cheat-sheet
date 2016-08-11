@@ -56,3 +56,10 @@ function o() {
 		open "$@";
 	fi;
 }
+
+# fzf wow
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh;
+alias ff=fzf
+export FZF_COMPLETION_TRIGGER=';;'
+export FZF_DEFAULT_OPTS='-x -m --no-mouse'
+export FZF_COMPLETION_OPTS='-x -m --no-mouse'

@@ -36,6 +36,14 @@ Go to website and download it
 
 5. Restart iterm2
 
+[fzf][4] installation
+-----------------------
+
+		brew install fzf
+
+		/usr/local/opt/fzf/install
+
+
 Customization
 ------------------------
 
@@ -48,3 +56,4 @@ Customization
 [1]: https://www.iterm2.com/
 [2]: http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
 [3]: https://github.com/sorin-ionescu/prezto
+[4]: https://github.com/junegunn/fzf

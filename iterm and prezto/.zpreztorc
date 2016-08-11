@@ -177,3 +177,11 @@ zstyle ':prezto:module:history-substring-search:color' found 'bg=red,fg=white,bo
 
 # Set the query not found color.
 zstyle ':prezto:module:history-substring-search:color' not-found ''
+
+# Make vim the default editor
+export EDITOR="vim";
+export VISUAL="subl";
+
+# Prefer US English and use UTF-8
+export LANG="en_US.UTF-8";
+export LC_ALL="en_US.UTF-8";
