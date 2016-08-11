@@ -39,9 +39,11 @@ Go to website and download it
 Customization
 ------------------------
 
-1. ~./zpreztorc
+1. ~/.zpreztorc
 
-2. iterm2 import color profile
+2. ~/.zshrc
+
+3. iterm2 import color profile
 
 [1]: https://www.iterm2.com/
 [2]: http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
