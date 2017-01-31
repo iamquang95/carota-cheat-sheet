@@ -49,3 +49,11 @@ Create a branch with pull request you need to fetch
 After done your job with this pull request, if you want to push your commit to this branch
 
     git push <github acc> <branch name>
+    
+5. .gitignore doesn't work
+--------------------------------
+
+    git rm -r --cached .
+    git add .
+    git commit -m "Fix untracked files after edit gitignore"  
+
