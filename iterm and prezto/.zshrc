@@ -63,3 +63,7 @@ alias ff=fzf
 export FZF_COMPLETION_TRIGGER=';;'
 export FZF_DEFAULT_OPTS='-x -m --no-mouse'
 export FZF_COMPLETION_OPTS='-x -m --no-mouse'
+
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[cursor]=underline
+
