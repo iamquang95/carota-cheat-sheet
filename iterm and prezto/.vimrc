@@ -1,20 +1,6 @@
 set nocompatible      " be iMproved, required
 filetype off          " required
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'junegunn/fzf.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'rking/ag.vim' " consider switch to ack.vim because deprecated
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tpope/vim-commentary' " commenting things (alt. tcomment, nerdcommenter)
-Plugin 'Vimjas/vim-python-pep8-indent'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-
-call vundle#end()
 filetype plugin indent on
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -39,7 +25,6 @@ autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
 
 """ color scheme
 set background=dark
-colorscheme hybrid  " lol
 
 """ NERDTree
 map <C-n> :NERDTreeToggle<cr>
